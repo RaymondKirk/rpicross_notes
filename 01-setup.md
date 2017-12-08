@@ -85,6 +85,11 @@ As I prefer the development enviroment of my HOST-system, developed code will be
     XCS~$ sudo /media/cdrom/VBoxLinuxAdditions.run
     XCS~$ sudo adduser pi vboxsf
     ```
+1. Install the necessary packages
+
+    ```
+    XCS~$ sudo apt-get install make gcc linux-headers-$(uname -r)
+    ```
 1. Add shared Folder: Machine > Settings > Shared Folders > Add
     - Select Folder Path
     - Name: code
